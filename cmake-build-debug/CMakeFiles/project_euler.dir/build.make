@@ -57,38 +57,38 @@ include CMakeFiles/project_euler.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/project_euler.dir/flags.make
 
-CMakeFiles/project_euler.dir/problem4.cpp.o: CMakeFiles/project_euler.dir/flags.make
-CMakeFiles/project_euler.dir/problem4.cpp.o: ../problem4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alanna/Documents/Code/project-euler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project_euler.dir/problem4.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_euler.dir/problem4.cpp.o -c /Users/alanna/Documents/Code/project-euler/problem4.cpp
+CMakeFiles/project_euler.dir/problem5.cpp.o: CMakeFiles/project_euler.dir/flags.make
+CMakeFiles/project_euler.dir/problem5.cpp.o: ../problem5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alanna/Documents/Code/project-euler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project_euler.dir/problem5.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_euler.dir/problem5.cpp.o -c /Users/alanna/Documents/Code/project-euler/problem5.cpp
 
-CMakeFiles/project_euler.dir/problem4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_euler.dir/problem4.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alanna/Documents/Code/project-euler/problem4.cpp > CMakeFiles/project_euler.dir/problem4.cpp.i
+CMakeFiles/project_euler.dir/problem5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_euler.dir/problem5.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alanna/Documents/Code/project-euler/problem5.cpp > CMakeFiles/project_euler.dir/problem5.cpp.i
 
-CMakeFiles/project_euler.dir/problem4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_euler.dir/problem4.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alanna/Documents/Code/project-euler/problem4.cpp -o CMakeFiles/project_euler.dir/problem4.cpp.s
+CMakeFiles/project_euler.dir/problem5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_euler.dir/problem5.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alanna/Documents/Code/project-euler/problem5.cpp -o CMakeFiles/project_euler.dir/problem5.cpp.s
 
-CMakeFiles/project_euler.dir/problem4.cpp.o.requires:
+CMakeFiles/project_euler.dir/problem5.cpp.o.requires:
 
-.PHONY : CMakeFiles/project_euler.dir/problem4.cpp.o.requires
+.PHONY : CMakeFiles/project_euler.dir/problem5.cpp.o.requires
 
-CMakeFiles/project_euler.dir/problem4.cpp.o.provides: CMakeFiles/project_euler.dir/problem4.cpp.o.requires
-	$(MAKE) -f CMakeFiles/project_euler.dir/build.make CMakeFiles/project_euler.dir/problem4.cpp.o.provides.build
-.PHONY : CMakeFiles/project_euler.dir/problem4.cpp.o.provides
+CMakeFiles/project_euler.dir/problem5.cpp.o.provides: CMakeFiles/project_euler.dir/problem5.cpp.o.requires
+	$(MAKE) -f CMakeFiles/project_euler.dir/build.make CMakeFiles/project_euler.dir/problem5.cpp.o.provides.build
+.PHONY : CMakeFiles/project_euler.dir/problem5.cpp.o.provides
 
-CMakeFiles/project_euler.dir/problem4.cpp.o.provides.build: CMakeFiles/project_euler.dir/problem4.cpp.o
+CMakeFiles/project_euler.dir/problem5.cpp.o.provides.build: CMakeFiles/project_euler.dir/problem5.cpp.o
 
 
 # Object files for target project_euler
 project_euler_OBJECTS = \
-"CMakeFiles/project_euler.dir/problem4.cpp.o"
+"CMakeFiles/project_euler.dir/problem5.cpp.o"
 
 # External object files for target project_euler
 project_euler_EXTERNAL_OBJECTS =
 
-project_euler: CMakeFiles/project_euler.dir/problem4.cpp.o
+project_euler: CMakeFiles/project_euler.dir/problem5.cpp.o
 project_euler: CMakeFiles/project_euler.dir/build.make
 project_euler: CMakeFiles/project_euler.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/alanna/Documents/Code/project-euler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable project_euler"
@@ -99,7 +99,7 @@ CMakeFiles/project_euler.dir/build: project_euler
 
 .PHONY : CMakeFiles/project_euler.dir/build
 
-CMakeFiles/project_euler.dir/requires: CMakeFiles/project_euler.dir/problem4.cpp.o.requires
+CMakeFiles/project_euler.dir/requires: CMakeFiles/project_euler.dir/problem5.cpp.o.requires
 
 .PHONY : CMakeFiles/project_euler.dir/requires
 

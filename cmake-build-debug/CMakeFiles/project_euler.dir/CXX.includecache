@@ -6,13 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/alanna/Documents/Code/project-euler/problem4.cpp
+/Users/alanna/Documents/Code/project-euler/problem5.cpp
 iostream
--
-algorithm
--
-iterator
--
-vector
 -
 
