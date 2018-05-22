@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/alanna/Documents/Code/project-euler/problem7.cpp">
+		<Unit filename="/Users/alanna/Documents/Code/project-euler/problem8.cpp">
 			<Option target="project_euler"/>
 		</Unit>
 		<Unit filename="/Users/alanna/Documents/Code/project-euler/CMakeLists.txt">

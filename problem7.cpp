@@ -7,7 +7,7 @@
  * notes: all even numbers above 2 are not prime
  *
  * 0 is false
- * 
+ *
  * Solved by: Alanna Zhou on 5/22/18
  *
  */

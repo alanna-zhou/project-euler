@@ -123,32 +123,32 @@ project_euler/fast:
 	$(MAKE) -f CMakeFiles/project_euler.dir/build.make CMakeFiles/project_euler.dir/build
 .PHONY : project_euler/fast
 
-problem7.o: problem7.cpp.o
+problem8.o: problem8.cpp.o
 
-.PHONY : problem7.o
+.PHONY : problem8.o
 
 # target to build an object file
-problem7.cpp.o:
-	$(MAKE) -f CMakeFiles/project_euler.dir/build.make CMakeFiles/project_euler.dir/problem7.cpp.o
-.PHONY : problem7.cpp.o
+problem8.cpp.o:
+	$(MAKE) -f CMakeFiles/project_euler.dir/build.make CMakeFiles/project_euler.dir/problem8.cpp.o
+.PHONY : problem8.cpp.o
 
-problem7.i: problem7.cpp.i
+problem8.i: problem8.cpp.i
 
-.PHONY : problem7.i
+.PHONY : problem8.i
 
 # target to preprocess a source file
-problem7.cpp.i:
-	$(MAKE) -f CMakeFiles/project_euler.dir/build.make CMakeFiles/project_euler.dir/problem7.cpp.i
-.PHONY : problem7.cpp.i
+problem8.cpp.i:
+	$(MAKE) -f CMakeFiles/project_euler.dir/build.make CMakeFiles/project_euler.dir/problem8.cpp.i
+.PHONY : problem8.cpp.i
 
-problem7.s: problem7.cpp.s
+problem8.s: problem8.cpp.s
 
-.PHONY : problem7.s
+.PHONY : problem8.s
 
 # target to generate assembly for a file
-problem7.cpp.s:
-	$(MAKE) -f CMakeFiles/project_euler.dir/build.make CMakeFiles/project_euler.dir/problem7.cpp.s
-.PHONY : problem7.cpp.s
+problem8.cpp.s:
+	$(MAKE) -f CMakeFiles/project_euler.dir/build.make CMakeFiles/project_euler.dir/problem8.cpp.s
+.PHONY : problem8.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... project_euler"
-	@echo "... problem7.o"
-	@echo "... problem7.i"
-	@echo "... problem7.s"
+	@echo "... problem8.o"
+	@echo "... problem8.i"
+	@echo "... problem8.s"
 .PHONY : help
 
 
