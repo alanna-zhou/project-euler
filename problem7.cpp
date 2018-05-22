@@ -7,6 +7,8 @@
  * notes: all even numbers above 2 are not prime
  *
  * 0 is false
+ * 
+ * Solved by: Alanna Zhou on 5/22/18
  *
  */
 
@@ -27,25 +29,26 @@ bool isPrime(int num) {
 }
 
 int nthPrime(int n) {
-//    if (n == 1) {
-//        return 2;
-//    }
-//    int i = 2;
-//    while (isPrime(i) == false) {
-//        i++;
-//        return i;
-//    }
-//
-
-    return 0;
+    if (n == 1) { // 1st prime is 2
+        return 2;
+    }
+    int primeNum = 3;
+    for (int i = 2; i <= n; i++) {
+        while(!isPrime(primeNum)) {
+            primeNum++;
+        }
+        primeNum++;
+    }
+    return primeNum - 1;
 }
 
 
 int main() {
-    cout << "isPrime(1): " << isPrime(1) << endl;
-    cout << "isPrime(5): " << isPrime(5) << endl;
-    cout << "isPrime(4): " << isPrime(4) << endl;
-    cout << "isPrime(15): " << isPrime(15) << endl;
+
+    cout << "1st Prime: " << nthPrime(1) << endl;
+    cout << "2nd Prime: " << nthPrime(2) << endl;
+    cout << "3rd Prime: " << nthPrime(3) << endl;
+    cout << "10001st Prime: " << nthPrime(10001) << endl;
 
     return 0;
 }
