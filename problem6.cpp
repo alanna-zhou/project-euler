@@ -21,7 +21,7 @@
 
 using namespace std;
 
-int sumOfSquares() {
+int SumOfSquares() {
     int sum = 0;
     for (int i = 1; i <= 100; i++) {
         sum += i*i;
@@ -29,7 +29,7 @@ int sumOfSquares() {
     return sum;
 }
 
-int squareOfSum() {
+int SquareOfSum() {
     int square = 0;
     for (int i = 1; i <= 100; i++) {
         square += i;
@@ -38,14 +38,14 @@ int squareOfSum() {
     return square;
 }
 
-int sumSquareDiff(int sum, int square) {
+int SumSquareDiff(int sum, int square) {
     return square - sum;
 }
 
 int main() {
 //    cout << sumOfSquares() << endl;
 //    cout << squareOfSum() << endl;
-    cout << sumSquareDiff(sumOfSquares(), squareOfSum()) << endl;
+    cout << SumSquareDiff(SumOfSquares(), SquareOfSum()) << endl;
     return 0;
 }
 
