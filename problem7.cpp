@@ -16,7 +16,7 @@
 
 using namespace std;
 
-bool isPrime(int num) {
+bool IsPrime(int num) {
     if (num < 2) {
         return false;
     }
@@ -28,27 +28,27 @@ bool isPrime(int num) {
     return true;
 }
 
-int nthPrime(int n) {
+int NthPrime(int n) {
     if (n == 1) { // 1st prime is 2
         return 2;
     }
-    int primeNum = 3;
+    int prime_num = 3;
     for (int i = 2; i <= n; i++) {
-        while(!isPrime(primeNum)) {
-            primeNum++;
+        while(!IsPrime(prime_num)) {
+            prime_num++;
         }
-        primeNum++;
+        prime_num++;
     }
-    return primeNum - 1;
+    return prime_num - 1;
 }
 
 
 int main() {
 
-    cout << "1st Prime: " << nthPrime(1) << endl;
-    cout << "2nd Prime: " << nthPrime(2) << endl;
-    cout << "3rd Prime: " << nthPrime(3) << endl;
-    cout << "10001st Prime: " << nthPrime(10001) << endl;
+    cout << "1st Prime: " << NthPrime(1) << endl;
+    cout << "2nd Prime: " << NthPrime(2) << endl;
+    cout << "3rd Prime: " << NthPrime(3) << endl;
+    cout << "10001st Prime: " << NthPrime(10001) << endl;
 
     return 0;
 }
