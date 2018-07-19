@@ -5,7 +5,7 @@
  * The sum of these multiples is 23.
  * Find the sum of all the multiples of 3 or 5 below 1000.
  *
- * Solved by: Alanna Zhou on 4/7/18
+ * Solved: 4/7/18
  *
  */
 
@@ -17,9 +17,9 @@ bool IsMultiple(int dividend, int divisor) {
     return dividend % divisor == 0;
 }
 
+// bad linear complexity version
 int SumOfMultiples(int divisor, int divisor2, int max) {
     int sum = 0;
-    // TODO: for loop below has linear complexity, but there is a better algo.
     for (int i = 0; i < max; i++) {
         if (IsMultiple(i, divisor) || IsMultiple(i, divisor2)) {
             // cout << i << endl;
@@ -29,7 +29,7 @@ int SumOfMultiples(int divisor, int divisor2, int max) {
     return sum;
 }
 
-// DONE
+// better
 int GetSum(int divisor, int divisor2, int max) {
     int sum = 0;
     for (int i = 0; i < max; i+=divisor) {

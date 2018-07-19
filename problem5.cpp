@@ -6,7 +6,7 @@
  * What is the smallest positive number that is evenly divisible
  * by all of the numbers from 1 to 20?
  *
- * Solved by: Alanna Zhou on 4/11/18
+ * Solved: 4/11/18
  *
  */
 

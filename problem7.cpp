@@ -8,7 +8,7 @@
  *
  * 0 is false
  *
- * Solved by: Alanna Zhou on 5/22/18
+ * Solved: 5/22/18
  *
  */
 
