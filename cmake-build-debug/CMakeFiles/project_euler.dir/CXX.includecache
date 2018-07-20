@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/alanna/Documents/Code/project-euler/test.cpp
+/Users/alanna/Documents/Code/project-euler/problem8.cpp
 iostream
+-
+vector
+-
+fstream
 -
 
